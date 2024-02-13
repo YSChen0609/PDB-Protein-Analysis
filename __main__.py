@@ -3,8 +3,8 @@
 from imports import *
 
 # Import custom classes
-from classes.class1 import PDB_Parser
-from classes.class2 import Ramachandran_Analysis
+from PDB_Parser import PDB_Parser
+from Ramachandran_Analysis import Ramachandran_Analysis
 
 def main():
     # new a PDB_Parser and get the atom data from PDB/FASTA DB
