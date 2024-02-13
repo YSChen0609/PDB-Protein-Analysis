@@ -19,6 +19,10 @@ Gives the Ramachandran Plots (scatter plots) for:
  (b) all glycines
  (c) all prolines
 
+## Experiments
+To get the Ramachandran Plots, execute the  `python __main__.py`.
+Note that Ramachandran_Analysis must be initialize with a pandas dataframe having the format (columns): atom_name, residue_name, x, y, z.
+
 ## Future Work/ Improvements
 1. Current version skips the PDBx/mmCIF Format, thus the "first 100" structures is actually giving fewer (94, in the report case).
 2. Current version simply accumulate all ATOMs, instead of making them into groups of chains, which may cause mis-calculations (alleviated to 128 occurrences in over 500000 amino acids).
