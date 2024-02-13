@@ -7,7 +7,8 @@ This is a Repo consists of two modules:
 ## PDB-Parser
 See `PDB_Parser.py`.
 
-It goes to RCSB PDB (Protein Data Bank) and download the list of non-redundant protein structure files at 30% sequence identity level at https://www.rcsb.org/docs/programmatic-access/file-download-services#sequence-clusters-data. The resulting text file "clusters-by-entity-30.txt" contains over 300,000 lines, each of which corresponds to a cluster of single-chain sequences and structures (those four alphanumeric characters are PDB IDs and they are followed by "_" and then by a polymer entity identifier, not chain identifier)
+It goes to RCSB PDB (Protein Data Bank) and download (stream) the list of non-redundant protein structure files at 30% sequence identity level. 
+The resulting text file "clusters-by-entity-30.txt" contains over 300,000 lines, each of which corresponds to a cluster of single-chain sequences and structures (those four alphanumeric characters are PDB IDs and they are followed by "_" and then by a polymer entity identifier, not chain identifier)
 
 Loops over the largest 100 clusters (the first 100 lines) in the list, select one random structure for each cluster/line.
 
