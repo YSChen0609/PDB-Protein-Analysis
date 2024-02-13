@@ -1,6 +1,6 @@
 # PDB_Protein_Analysis
 
-This is an Repo consists of two modules:
+This is a Repo consists of two modules:
 1. A PDB (Protein Data Bank) dataset parser that will give cleaned ATOM information.
 2. A Ramachandran Analysis tool.
 
@@ -20,7 +20,7 @@ Gives the Ramachandran Plots (scatter plots) for:
  (c) all prolines
 
 ## Experiments
-To get the Ramachandran Plots, execute the  `python __main__.py`.
+To get the Ramachandran Plots, execute  `python __main__.py`.
 Note that Ramachandran_Analysis must be initialize with a pandas dataframe having the format (columns): atom_name, residue_name, x, y, z.
 
 ## Future Work/ Improvements
