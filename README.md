@@ -21,6 +21,7 @@ Gives the Ramachandran Plots (scatter plots) for:
 
 ## Experiments
 To get the Ramachandran Plots, execute  `python __main__.py`.
+
 Note that Ramachandran_Analysis must be initialize with a pandas dataframe having the format (columns): atom_name, residue_name, x, y, z.
 
 ## Future Work/ Improvements
