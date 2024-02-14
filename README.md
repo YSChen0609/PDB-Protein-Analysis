@@ -1,10 +1,10 @@
-# PDB_Protein_Analysis
+# PDB-Protein-Analysis
 
 This is a Repo consists of two modules:
 1. A PDB (Protein Data Bank) dataset parser that will give cleaned ATOM information.
 2. A Ramachandran Analysis tool.
 
-## PDB-Parser
+## PDB Parser
 See `PDB_Parser.py`.
 
 It goes to RCSB PDB (Protein Data Bank) and download (stream) the list of non-redundant protein structure files at 30% sequence identity level. 
