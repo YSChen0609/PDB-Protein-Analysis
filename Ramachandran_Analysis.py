@@ -1,6 +1,7 @@
 from imports import *
 
 class Ramachandran_Analysis():
+    
     def __init__(self, AtomData=None):
         """
         AtomData is a pandas dataframe having the format (columns): atom_name, residue_name, x, y, z
